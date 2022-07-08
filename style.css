@@ -5,8 +5,6 @@
 .footer {
     display: flex;
     align-items: center;
-    width: auto;
-    height: 7%;
     background-color: #1F2937;
 }
 
@@ -32,8 +30,12 @@
     color: #e5e7eb;
 }
 
-.section1 {
+.section1,
+.section2,
+.section3,
+.section4 {
     background-color: #1F2937;
+    width: 100%;
 }
 .s1h1, .s1h4{
     color: #e5e7eb;
