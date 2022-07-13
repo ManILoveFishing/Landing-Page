@@ -138,12 +138,67 @@
 }
 
 .quoteAuthor {
-   margin-left: 80%;
-   margin-right: 10%;
+   margin-left: 60%;
+   margin-right: auto;
+   margin-bottom: 5%;
+   padding-bottom: 5%;
 }
 
 .quoteAuthor p {
-   font-size: 18px;
+   font-size: 36px;
    font-weight: 700;
    color: #1f2937;
+}
+
+.actioncallContainer {
+   display: flex;
+   flex-direction: row;
+   justify-content: left;
+   margin-bottom: 5%;
+   margin-left: 10%;
+   margin-right: 10%;
+   border-radius: 5px;
+   background-color: #3882F6;
+}
+
+.actionText {
+   padding: 5%;
+   margin-left: 5%;
+   color: #f9faf8;
+}
+.actionCall {
+   font-size: 24px;
+   font-weight: 700;
+}
+
+.buttonContainer {
+   margin-top: 6%;
+   margin-left: 25%;
+   background-color: #3882F6;
+   border: #f9faf8;
+}
+.s4Button {
+   background-color: #3882F6;
+   border-color: #ffffff;
+   color: #f9faf8;
+   border-radius: 3px;
+   border-width: 2px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 25px;
+   padding-right: 25px;
+   font-size: 18px;
+
+}
+
+.footerText {
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   padding: 5%;
+}
+.footerText h4 {
+   font-size: 18px;
+   color: #f9faf8;
+   text-align: center;
 }
