@@ -45,12 +45,16 @@
    margin-right: 35%;
    margin-top: 5%;
    margin-bottom: 5%;
+   background-color: #e5e7eb;
+   height: 250px;
+   width: 500px;
 }
 
 .s1img {
    height: 255px;
    width: 400px;
 }
+
 
 .section1Text {
    width: 300px;
@@ -75,7 +79,8 @@
 
 
 .section2 {
-   background-color: #750000;
+   background-color: #ffffff;
+   display: flex;
 }
 
 .s1h1 {
@@ -92,26 +97,25 @@
 }
 
 .s2h1 {
-   color: #e5e7eb;
+   color: black;
    font-size: 36px;
    font-weight: 700;
    text-align: center;
-   margin-top: 0;
    padding-top: 25px;
 }
 
 .boxes {
    display: flex;
    flex-direction: row;
-   justify-content: space-evenly;
-   margin-top: 2%;
+   justify-content: space-between;
+   margin-top: 5%;
    padding-bottom: 5%;
 }
 
 .boxes p {
    text-align: center;
-   color: #e5e7eb;
-   font-size: px;
+   color: black;
+   font-size: 12px;
 }
 
 .s2img {
