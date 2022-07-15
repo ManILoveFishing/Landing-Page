@@ -80,10 +80,14 @@
 
 .section2 {
    background-color: #ffffff;
-   display: flex;
 }
 
+.section2 p{
+   text-align: center;
+}
 .s1h1 {
+   display: flex;
+   justify-content: center;
    font-size: 48px;
    font-weight: 700;
    color: #f9faf8;
@@ -106,10 +110,8 @@
 
 .boxes {
    display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   margin-top: 5%;
-   padding-bottom: 5%;
+   justify-content: space-evenly;
+   margin-top: 30px;
 }
 
 .boxes p {
